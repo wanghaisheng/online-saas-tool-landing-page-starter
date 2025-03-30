@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "专业在线工具 - 节省时间 & 提高生产力",
+    "description": "我们强大的在线工具帮助专业人士节省时间、自动化任务并取得更好的成果。今天免费试用。"
+  },
+  "header": {
+    "title": "工具名称",
+    "login": "登录",
+    "signup": "免费注册"
+  },
+  "nav": {
+    "features": "功能",
+    "playground": "体验区",
+    "comparison": "对比",
+    "solutions": "解决方案",
+    "pricing": "价格"
+  },
+  "hero": {
+    "title": "使用我们强大的在线工具转变您的工作流程",
+    "subtitle": "通过为您这样的专业人士设计的直观解决方案，节省时间、提高生产力并获得更好的结果。",
+    "cta": "开始免费试用",
+    "demo": "观看演示",
+    "rating": "来自2,000+评论的4.9/5分",
+    "customers": "受到10,000+专业人士的信任",
+    "badge1": "速度提高10倍",
+    "badge2": "99.9%准确率",
+    "badge3": "安全与隐私"
+  },
+  "features": {
+    "title": "带来显著差异的强大功能",
+    "subtitle": "了解我们的工具如何通过这些行业领先的功能转变您的工作流程",
+    "feature1": {
+      "title": "闪电般的处理速度",
+      "description": "在几秒钟内处理大量数据，而不是几小时。我们优化的算法确保最大效率。"
+    },
+    "feature2": {
+      "title": "AI驱动的分析",
+      "description": "利用尖端AI获取洞察力并以前所未有的准确性自动化复杂任务。"
+    },
+    "feature3": {
+      "title": "云同步",
+      "description": "通过无缝云集成和跨设备的实时更新，随时随地访问您的工作。"
+    },
+    "feature4": {
+      "title": "企业级安全",
+      "description": "安心无忧，因为您的数据受到端到端加密和全面安全协议的保护。"
+    },
+    "feature5": {
+      "title": "高级分析",
+      "description": "通过可定制的仪表板和详细报告跟踪性能并识别趋势。"
+    },
+    "feature6": {
+      "title": "API集成",
+      "description": "通过我们强大的API和广泛的集成选项，与您现有的工具无缝连接。"
+    }
+  },
+  "playground": {
+    "title": "亲自尝试",
+    "subtitle": "通过这个交互式演示体验我们工具的强大功能",
+    "inputLabel": "输入您的文本：",
+    "inputPlaceholder": "在这里输入或粘贴您的内容...",
+    "optionsTitle": "处理选项",
+    "option1": "高级分析",
+    "option2": "详细报告",
+    "option3": "AI增强",
+    "langOption1": "英语",
+    "langOption2": "西班牙语",
+    "langOption3": "法语",
+    "langOption4": "德语",
+    "langOption5": "中文",
+    "processBtn": "立即处理",
+    "clearBtn": "清除",
+    "resultTitle": "结果",
+    "resultPlaceholder": "您的结果将在处理后显示在这里",
+    "processingTime": "处理时间：",
+    "wordCount": "字数：",
+    "accuracy": "准确率：",
+    "note": "注意：此演示功能有限。免费注册以访问完整功能。",
+    "noteLink": "免费注册",
+    "processing": "处理中...",
+    "errorEmptyInput": "请输入要处理的文本",
+    "analysis": {
+      "title": "高级分析",
+      "content": "我们的高级分析已从您的内容中识别出以下模式和见解：",
+      "sentiment": "积极情感"
+    },
+    "report": {
+      "title": "详细报告",
+      "item1": "内容结构组织良好，各部分清晰",
+      "item2": "已识别关键主题：生产力、效率、自动化",
+      "item3": "建议改进：添加更多具体示例和数据点"
+    },
+    "ai": {
+      "title": "AI增强建议",
+      "content": "我们的AI已分析您的内容并识别出改进机会：",
+      "suggestion": "考虑重组第2段以提高流畅性和清晰度"
+    }
+  },
+  "comparison": {
+    "title": "我们的比较",
+    "subtitle": "了解为什么专业人士选择我们而非替代方案",
+    "featureColumn": "功能",
+    "ourProduct": "我们的工具",
+    "recommended": "推荐",
+    "competitor1": "竞争对手A",
+    "competitor2": "竞争对手B",
+    "feature1": "处理速度",
+    "feature2": "AI驱动分析",
+    "feature3": "云集成",
+    "feature4": "安全级别",
+    "feature5": "API访问",
+    "feature6": "客户支持",
+    "pricing": "起始价格",
+    "fastest": "最快",
+    "advanced": "高级",
+    "unlimited": "无限",
+    "enterprise": "企业级",
+    "included": "包含",
+    "247": "24/7实时",
+    "average": "一般",
+    "basic": "基础",
+    "limited": "有限",
+    "standard": "标准",
+    "premium": "仅高级版",
+    "email": "仅电子邮件",
+    "none": "无",
+    "month": "/月",
+    "trialBtn": "开始免费试用"
+  },
+  "solutions": {
+    "title": "解决常见挑战",
+    "subtitle": "我们倾听用户的挫折并构建解决现实问题的解决方案",
+    "pain1": {
+      "title": "耗时的手动处理",
+      "description": "\"我在本应几分钟完成的任务上浪费了几个小时。手动处理正在扼杀我的生产力。\""
+    },
+    "solution1": {
+      "title": "自动化处理引擎",
+      "description": "我们的工具自动化重复任务，将处理时间减少高达90%。以前需要几小时的工作现在只需几分钟。"
+    },
+    "pain2": {
+      "title": "结果不一致和错误",
+      "description": "\"我无法信任输出质量。太多错误意味着我无论如何都必须重新检查所有内容。\""
+    },
+    "solution2": {
+      "title": "AI驱动的准确性",
+      "description": "我们先进的AI算法确保结果99.9%的准确性，消除了手动验证的需要并提供一致的质量。"
+    },
+    "pain3": {
+      "title": "复杂的学习曲线",
+      "description": "\"大多数工具在我能有效使用之前需要几周的培训。我没有时间做这些。\""
+    },
+    "solution3": {
+      "title": "直观的用户界面",
+      "description": "我们的用户友好界面专为即时生产力而设计。大多数用户通过我们的引导式入职在30分钟内掌握基础知识。"
+    },
+    "pain4": {
+      "title": "有限的协作选项",
+      "description": "\"使用当前工具与我的团队共享工作和协作是一场噩梦。我们在变通方法上浪费时间。\""
+    },
+    "solution4": {
+      "title": "无缝团队协作",
+      "description": "我们内置的协作功能允许实时共享、评论和编辑，并具有基于角色的权限，实现高效的团队合作。"
+    }
+  },
+  "testimonials": {
+    "title": "用户怎么说",
+    "subtitle": "不仅仅相信我们的话 - 听听每天使用我们工具的专业人士怎么说",
+    "testimonial1": {
+      "quote": "这个工具彻底改变了我们团队的工作方式。我们将处理时间减少了85%，显著提高了输出质量。这对我们的业务是一个游戏规则的改变者。",
+      "name": "Sarah Johnson",
+      "position": "市场总监, TechCorp"
+    },
+    "testimonial2": {
+      "quote": "在尝试了几个竞争对手后，我们发现这个解决方案在速度和准确性方面远远优于其他。直观的界面使我们团队的采用过程异常顺利。",
+      "name": "Michael Chen",
+      "position": "数据分析师, FinancePro"
+    },
+    "testimonial3": {
+      "quote": "这个工具的投资回报率在第一个月内就很明显。我们能够扩展我们的运营而无需增加人手，而且我们的输出质量从未如此之好。",
+      "name": "Jennifer Lopez",
+      "position": "运营经理, GrowthCo"
+    }
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "选择适合您需求的计划，没有隐藏费用或长期承
+

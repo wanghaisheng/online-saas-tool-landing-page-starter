@@ -1,132 +1,1045 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="keywords" content="mobile, simulator, mobile design, mobile app">
-  <meta name="author" content="Your Name or Company">
-  <meta http-equiv="Content-Language" content="en">
-
-  <!-- Canonical Link -->
-  <link rel="canonical" href="https://www.yourwebsite.com/pc-simulator" />
-
-  <!-- Open Graph for Social Media -->
-  <meta property="og:title" content="PC Simulator">
-  <meta property="og:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta property="og:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta property="og:url" content="https://www.yourwebsite.com/pc-simulator">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PC Simulator">
-  <meta name="twitter:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="twitter:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta name="twitter:creator" content="@yourtwitterhandle">
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://www.yourwebsite.com/favicon.ico" type="image/x-icon">
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-XXXXX-Y');
-  </script>
-
-  <!-- Microsoft Clarity -->
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y) {
-      window.clarity=window.clarity||function(){(clarity.q=clarity.q||[]).push(arguments)};
-      clarity('set', 'anonymizeIP', true);
-      i=l.createElement('script');i.async=1;i.src=r;i.type='text/javascript';
-      t=l.getElementsByTagName('script')[0];t.parentNode.insertBefore(i,t);
-    })(document,window,'script','https://www.clarity.ms/tag/XXXXXX');
-  </script>
-
-  <title>PC Simulator</title>
-
-  <style>
-    /* Global Styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .mobile-container {
-      width: 360px;
-      height: 640px;
-      border: 16px solid black;
-      border-radius: 16px;
-      background-color: #fff;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .content {
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    /* Adjustments for PC */
-    @media (min-width: 768px) {
-      .mobile-container {
-        width: 600px;
-        height: 1000px;
-      }
-
-      .content {
-        font-size: 1.5rem;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="meta.title">Professional Online Text Analysis Tool - Save Time & Boost Content Quality</title>
+    <meta name="description" content="Our AI-powered text analysis tool helps professionals enhance content quality, save time, and achieve better results. Try it free today." data-i18n="meta.description">
+    <meta name="keywords" content="text analysis tool, AI text processing, content enhancement, text optimization">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Professional Text Analysis Tool - Enhance Your Content">
+    <meta property="og:description" content="Our AI-powered text analysis tool helps professionals enhance content quality, save time, and achieve better results.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:image" content="https://yourdomain.com/img/og-image.jpg">
+    <link rel="canonical" href="https://yourdomain.com">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Professional Text Analysis Tool",
+      "applicationCategory": "WebApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "2000"
       }
     }
-
-    @media (min-width: 1024px) {
-      .mobile-container {
-        width: 800px;
-        height: 1400px;
-      }
-
-      .content {
-        font-size: 1.8rem;
-      }
-    }
-
-    /* Additional responsiveness for larger screens */
-    @media (min-width: 1200px) {
-      body {
-        justify-content: flex-start;
-      }
-
-      .mobile-container {
-        margin-top: 50px;
-      }
-    }
-  </style>
+    </script>
 </head>
-
 <body>
-  <div class="mobile-container">
-    <div class="content">
-      <p>Mobile Simulator Screen</p>
-      <p>PC Version: Adjusted for larger screens.</p>
-    </div>
-  </div>
-</body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="Tool Logo" class="logo-img">
+                    <h1 class="logo-text" data-i18n="header.title">Tool Name</h1>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#features" data-i18n="nav.features">Features</a></li>
+                        <li><a href="#playground" data-i18n="nav.playground">Playground</a></li>
+                        <li><a href="#ai-image-generation" data-i18n="nav.aiImageGen">AI Image</a></li>
+                        <li><a href="#comparison" data-i18n="nav.comparison">Comparison</a></li>
+                        <li><a href="#solutions" data-i18n="nav.solutions">Solutions</a></li>
+                        <li><a href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+                <div class="cta-buttons">
+                    <a href="#login" class="btn btn-secondary" data-i18n="header.login">Login</a>
+                    <a href="#signup" class="btn btn-primary" data-i18n="header.signup">Sign Up Free</a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-i18n="hero.title">Transform Your Workflow with Our Powerful Online Tool</h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">Save time, boost productivity, and achieve better results with our intuitive solution designed for professionals like you.</p>
+                    <div class="hero-cta">
+                        <a href="#signup" class="btn btn-primary btn-large" data-i18n="hero.cta">Start Free Trial</a>
+                        <a href="#demo" class="btn btn-outline demo-btn" data-i18n="hero.demo">Watch Demo</a>
+                    </div>
+                    <div class="social-proof">
+                        <div class="ratings">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p data-i18n="hero.rating">4.9/5 from 2,000+ reviews</p>
+                        </div>
+                        <div class="customers">
+                            <div class="customer-avatars">
+                                <img src="img/avatar-1.svg" alt="Customer" class="avatar">
+                                <img src="img/avatar-2.svg" alt="Customer" class="avatar">
+                                <img src="img/avatar-3.svg" alt="Customer" class="avatar">
+                            </div>
+                            <p data-i18n="hero.customers">Trusted by 10,000+ professionals</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/hero-image.svg" alt="Tool Interface Preview" class="main-image">
+                    <div class="badges">
+                        <div class="badge">
+                            <i class="fas fa-bolt"></i>
+                            <span data-i18n="hero.badge1">10x Faster</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-i18n="hero.badge2">99.9% Accuracy</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-lock"></i>
+                            <span data-i18n="hero.badge3">Secure & Private</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="features.title">Powerful Features That Make a Difference</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">Discover how our tool can transform your workflow with these industry-leading capabilities</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature1.title">Lightning Fast Processing</h3>
+                    <p class="feature-description" data-i18n="features.feature1.description">Process large amounts of data in seconds, not hours. Our optimized algorithms ensure maximum efficiency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature2.title">AI-Powered Analysis</h3>
+                    <p class="feature-description" data-i18n="features.feature2.description">Leverage cutting-edge AI to gain insights and automate complex tasks with unprecedented accuracy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature3.title">Cloud Synchronization</h3>
+                    <p class="feature-description" data-i18n="features.feature3.description">Access your work from anywhere with seamless cloud integration and real-time updates across devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature4.title">Enterprise-Grade Security</h3>
+                    <p class="feature-description" data-i18n="features.feature4.description">Rest easy knowing your data is protected with end-to-end encryption and comprehensive security protocols.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature5.title">Advanced Analytics</h3>
+                    <p class="feature-description" data-i18n="features.feature5.description">Track performance and identify trends with customizable dashboards and detailed reporting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title" data-i18n="features.feature6.title">API Integration</h3>
+                    <p class="feature-description" data-i18n="features.feature6.description">Connect seamlessly with your existing tools through our robust API and extensive integration options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Playground Section -->
+    <section id="playground" class="playground">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="playground.title">Try It Yourself</h2>
+                <p class="section-subtitle" data-i18n="playground.subtitle">Experience the power of our tool with this interactive demo</p>
+            </div>
+            <div class="playground-container">
+                <div class="playground-controls">
+                    <div class="input-group">
+                        <label for="input-text" data-i18n="playground.inputLabel">Enter your text:</label>
+                        <textarea id="input-text" rows="5" data-i18n-placeholder="playground.inputPlaceholder"></textarea>
+                    </div>
+                    <div class="options-group">
+                        <h4 data-i18n="playground.optionsTitle">Processing Options</h4>
+                        <div class="options-grid">
+                            <div class="option">
+                                <input type="checkbox" id="option1" checked>
+                                <label for="option1" data-i18n="playground.option1">Advanced Analysis</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="option2">
+                                <label for="option2" data-i18n="playground.option2">Detailed Report</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="option3">
+                                <label for="option3" data-i18n="playground.option3">AI Enhancement</label>
+                            </div>
+                            <div class="option">
+                                <select id="language-select">
+                                    <option value="en" data-i18n="playground.langOption1">English</option>
+                                    <option value="es" data-i18n="playground.langOption2">Spanish</option>
+                                    <option value="fr" data-i18n="playground.langOption3">French</option>
+                                    <option value="de" data-i18n="playground.langOption4">German</option>
+                                    <option value="zh" data-i18n="playground.langOption5">Chinese</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button id="process-btn" class="btn btn-primary" data-i18n="playground.processBtn">Process Now</button>
+                        <button id="clear-btn" class="btn btn-secondary" data-i18n="playground.clearBtn">Clear</button>
+                    </div>
+                </div>
+                <div class="playground-result">
+                    <div class="result-header">
+                        <h4 data-i18n="playground.resultTitle">Results</h4>
+                        <div class="result-actions">
+                            <button id="copy-btn" class="btn btn-icon" title="Copy to clipboard">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                            <button id="download-btn" class="btn btn-icon" title="Download results">
+                                <i class="fas fa-download"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="result-content" class="result-content">
+                        <div class="placeholder-content" data-i18n="playground.resultPlaceholder">Your results will appear here after processing</div>
+                    </div>
+                    <div class="result-stats">
+                        <div class="stat">
+                            <span class="stat-label" data-i18n="playground.processingTime">Processing Time:</span>
+                            <span id="time-stat" class="stat-value">0.0s</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label" data-i18n="playground.wordCount">Word Count:</span>
+                            <span id="word-stat" class="stat-value">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label" data-i18n="playground.accuracy">Accuracy:</span>
+                            <span id="accuracy-stat" class="stat-value">0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playground-note">
+                <p data-i18n="playground.note">Note: This demo has limited functionality. <a href="#signup" data-i18n="playground.noteLink">Sign up for free</a> to access the full capabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitor Comparison Section -->
+    <section id="comparison" class="comparison">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="comparison.title">How We Compare</h2>
+                <p class="section-subtitle" data-i18n="comparison.subtitle">See why professionals choose us over alternatives</p>
+            </div>
+            <div class="comparison-table-container">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th class="feature-column" data-i18n="comparison.featureColumn">Feature</th>
+                            <th class="our-product-column">
+                                <div class="product-header our-product">
+                                    <div class="product-name" data-i18n="comparison.ourProduct">Our Tool</div>
+                                    <div class="product-badge" data-i18n="comparison.recommended">Recommended</div>
+                                </div>
+                            </th>
+                            <th class="competitor-column">
+                                <div class="product-header">
+                                    <div class="product-name" data-i18n="comparison.competitor1">Competitor A</div>
+                                </div>
+                            </th>
+                            <th class="competitor-column">
+                                <div class="product-header">
+                                    <div class="product-name" data-i18n="comparison.competitor2">Competitor B</div>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="comparison.feature1">Processing Speed</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.fastest">Fastest</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.average">Average</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.average">Average</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.feature2">AI-Powered Analysis</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.advanced">Advanced</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.basic">Basic</span></td>
+                            <td class="missing-cell"><i class="fas fa-times-circle"></i> <span data-i18n="comparison.none">None</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.feature3">Cloud Integration</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.unlimited">Unlimited</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.limited">Limited</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.limited">Limited</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.feature4">Security Level</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.enterprise">Enterprise</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.standard">Standard</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.standard">Standard</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.feature5">API Access</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.included">Included</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.premium">Premium only</span></td>
+                            <td class="missing-cell"><i class="fas fa-times-circle"></i> <span data-i18n="comparison.none">None</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="comparison.feature6">Customer Support</td>
+                            <td class="check-cell"><i class="fas fa-check-circle"></i> <span data-i18n="comparison.247">24/7 Live</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.email">Email only</span></td>
+                            <td class="average-cell"><i class="fas fa-minus-circle"></i> <span data-i18n="comparison.limited">Limited hours</span></td>
+                        </tr>
+                        <tr class="pricing-row">
+                            <td data-i18n="comparison.pricing">Starting Price</td>
+                            <td class="price-cell"><span class="price">$19</span> <span data-i18n="comparison.month">/month</span></td>
+                            <td class="price-cell"><span class="price">$29</span> <span data-i18n="comparison.month">/month</span></td>
+                            <td class="price-cell"><span class="price">$39</span> <span data-i18n="comparison.month">/month</span></td>
+                        </tr>
+                        <tr class="action-row">
+                            <td></td>
+                            <td><a href="#signup" class="btn btn-primary" data-i18n="comparison.trialBtn">Start Free Trial</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Pain Points & Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="solutions.title">Common Challenges Solved</h2>
+                <p class="section-subtitle" data-i18n="solutions.subtitle">We've listened to user frustrations and built solutions that address real-world problems</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <div class="icon-container">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <h3 class="pain-title" data-i18n="solutions.pain1.title">Time-Consuming Manual Processing</h3>
+                        <p class="pain-description" data-i18n="solutions.pain1.description">"I waste hours on tasks that should take minutes. Manual processing is killing my productivity."</p>
+                    </div>
+                    <div class="solution">
+                        <div class="icon-container">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="solution-title" data-i18n="solutions.solution1.title">Automated Processing Engine</h3>
+                        <p class="solution-description" data-i18n="solutions.solution1.description">Our tool automates repetitive tasks, reducing processing time by up to 90%. What used to take hours now takes minutes.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <div class="icon-container">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <h3 class="pain-title" data-i18n="solutions.pain2.title">Inconsistent Results & Errors</h3>
+                        <p class="pain-description" data-i18n="solutions.pain2.description">"I can't trust the output quality. Too many errors mean I have to double-check everything anyway."</p>
+                    </div>
+                    <div class="solution">
+                        <div class="icon-container">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="solution-title" data-i18n="solutions.solution2.title">AI-Powered Accuracy</h3>
+                        <p class="solution-description" data-i18n="solutions.solution2.description">Our advanced AI algorithms ensure 99.9% accuracy in results, eliminating the need for manual verification and providing consistent quality.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <div class="icon-container">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <h3 class="pain-title" data-i18n="solutions.pain3.title">Complex Learning Curve</h3>
+                        <p class="pain-description" data-i18n="solutions.pain3.description">"Most tools require weeks of training before I can use them effectively. I don't have time for that."</p>
+                    </div>
+                    <div class="solution">
+                        <div class="icon-container">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="solution-title" data-i18n="solutions.solution3.title">Intuitive User Interface</h3>
+                        <p class="solution-description" data-i18n="solutions.solution3.description">Our user-friendly interface is designed for immediate productivity. Most users master the basics in under 30 minutes with our guided onboarding.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="pain-point">
+                        <div class="icon-container">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <h3 class="pain-title" data-i18n="solutions.pain4.title">Limited Collaboration Options</h3>
+                        <p class="pain-description" data-i18n="solutions.pain4.description">"Sharing work and collaborating with my team is a nightmare with current tools. We waste time on workarounds."</p>
+                    </div>
+                    <div class="solution">
+                        <div class="icon-container">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="solution-title" data-i18n="solutions.solution4.title">Seamless Team Collaboration</h3>
+                        <p class="solution-description" data-i18n="solutions.solution4.description">Our built-in collaboration features allow real-time sharing, commenting, and editing with role-based permissions for efficient teamwork.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="testimonials.title">What Our Users Say</h2>
+                <p class="section-subtitle" data-i18n="testimonials.subtitle">Don't just take our word for it - hear from professionals who use our tool every day</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-i18n="testimonials.testimonial1.quote">This tool has completely transformed how our team works. We've cut processing time by 85% and improved our output quality significantly. It's been a game-changer for our business.</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial-1.svg" alt="Testimonial Author" class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name" data-i18n="testimonials.testimonial1.name">Sarah Johnson</h4>
+                            <p class="author-position" data-i18n="testimonials.testimonial1.position">Marketing Director, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-i18n="testimonials.testimonial2.quote">After trying several competitors, we found this solution to be far superior in terms of both speed and accuracy. The intuitive interface made adoption across our team incredibly smooth.</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial-2.svg" alt="Testimonial Author" class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name" data-i18n="testimonials.testimonial2.name">Michael Chen</h4>
+                            <p class="author-position" data-i18n="testimonials.testimonial2.position">Data Analyst, FinancePro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-i18n="testimonials.testimonial3.quote">The ROI on this tool was evident within the first month. We've been able to scale our operations without adding headcount, and the quality of our output has never been better.</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/testimonial-3.svg" alt="Testimonial Author" class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name" data-i18n="testimonials.testimonial3.name">Jennifer Lopez</h4>
+                            <p class="author-position" data-i18n="testimonials.testimonial3.position">Operations Manager, GrowthCo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="pricing.title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle" data-i18n="pricing.subtitle">Choose the plan that fits your needs, with no hidden fees or long-term commitments</p>
+            </div>
+            <div class="pricing-toggle">
+                <span data-i18n="pricing.monthly">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span data-i18n="pricing.annually">Annually</span>
+                <div class="save-badge" data-i18n="pricing.save">Save 20%</div>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3 class="plan-name" data-i18n="pricing.basic.name">Basic</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount" id="basic-price">19</span>
+                            <span class="period" data-i18n="pricing.basic.period">/month</span>
+                        </div>
+                        <p class="plan-description" data-i18n="pricing.basic.description">Perfect for individuals and small projects</p>
+                    </div>
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li data-i18n="pricing.basic.feature1">Process up to 100 items per day</li>
+                            <li data-i18n="pricing.basic.feature2">Standard analysis tools</li>
+                            <li data-i18n="pricing.basic.feature3">5GB cloud storage</li>
+                            <li data-i18n="pricing.basic.feature4">Email support</li>
+                        </ul>
+                    </div>
+                    <div class="card-cta">
+                        <a href="#signup-basic" class="btn btn-outline btn-full" data-i18n="pricing.basic.cta">Start Free Trial</a>
+                    </div>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge" data-i18n="pricing.popular">Most Popular</div>
+                    <div class="card-header">
+                        <h3 class="plan-name" data-i18n="pricing.pro.name">Professional</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount" id="pro-price">49</span>
+                            <span class="period" data-i18n="pricing.pro.period">/month</span>
+                        </div>
+                        <p class="plan-description" data-i18n="pricing.pro.description">Ideal for professionals and growing teams</p>
+                    </div>
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li data-i18n="pricing.pro.feature1">Unlimited processing</li>
+                            <li data-i18n="pricing.pro.feature2">Advanced AI analysis</li>
+                            <li data-i18n="pricing.pro.feature3">50GB cloud storage</li>
+                            <li data-i18n="pricing.pro.feature4">Priority support</li>
+                            <li data-i18n="pricing.pro.feature5">Team collaboration tools</li>
+                        </ul>
+                    </div>
+                    <div class="card-cta">
+                        <a href="#signup-pro" class="btn btn-primary btn-full" data-i18n="pricing.pro.cta">Start Free Trial</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3 class="plan-name" data-i18n="pricing.enterprise.name">Enterprise</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount" id="enterprise-price">99</span>
+                            <span class="period" data-i18n="pricing.enterprise.period">/month</span>
+                        </div>
+                        <p class="plan-description" data-i18n="pricing.enterprise.description">For large organizations with advanced needs</p>
+                    </div>
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li data-i18n="pricing.enterprise.feature1">Unlimited everything</li>
+                            <li data-i18n="pricing.enterprise.feature2">Custom AI models</li>
+                            <li data-i18n="pricing.enterprise.feature3">500GB cloud storage</li>
+                            <li data-i18n="pricing.enterprise.feature4">24/7 dedicated support</li>
+                            <li data-i18n="pricing.enterprise.feature5">Advanced security features</li>
+                            <li data-i18n="pricing.enterprise.feature6">Custom integrations</li>
+                        </ul>
+                    </div>
+                    <div class="card-cta">
+                        <a href="#signup-enterprise" class="btn btn-outline btn-full" data-i18n="pricing.enterprise.cta">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-guarantee">
+                <div class="guarantee-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <p class="guarantee-text" data-i18n="pricing.guarantee">All plans come with a 14-day money-back guarantee. No questions asked.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Endorsements Section -->
+    <section id="experts" class="experts">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="experts.title">Endorsed by Industry Experts</h2>
+                <p class="section-subtitle" data-i18n="experts.subtitle">Leading professionals in linguistics and AI research trust and recommend our technology</p>
+            </div>
+            <div class="experts-grid">
+                <div class="expert-card">
+                    <div class="expert-image">
+                        <img src="img/expert-1.svg" alt="Dr. Emily Johnson" class="expert-avatar" loading="lazy">
+                    </div>
+                    <div class="expert-content">
+                        <blockquote class="expert-quote" data-i18n="experts.expert1.quote">This tool sets a new standard for AI-powered text analysis with unprecedented accuracy and insight.</blockquote>
+                        <div class="expert-info">
+                            <h3 class="expert-name" data-i18n="experts.expert1.name">Dr. Emily Johnson</h3>
+                            <p class="expert-title" data-i18n="experts.expert1.title">Ph.D. in Computational Linguistics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="expert-image">
+                        <img src="img/expert-2.svg" alt="Prof. Michael Chen" class="expert-avatar" loading="lazy">
+                    </div>
+                    <div class="expert-content">
+                        <blockquote class="expert-quote" data-i18n="experts.expert2.quote">The algorithms powering this tool represent a significant advancement in natural language processing.</blockquote>
+                        <div class="expert-info">
+                            <h3 class="expert-name" data-i18n="experts.expert2.name">Prof. Michael Chen</h3>
+                            <p class="expert-title" data-i18n="experts.expert2.title">Director of AI Research, Tech University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="certifications.title">Security & Compliance</h2>
+                <p class="section-subtitle" data-i18n="certifications.subtitle">Your data is protected by industry-leading security standards and compliance certifications</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="certification-title" data-i18n="certifications.cert1.title">ISO 27001 Certified</h3>
+                    <p class="certification-description" data-i18n="certifications.cert1.description">Our systems and processes meet the highest international standards for information security management.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="certification-title" data-i18n="certifications.cert2.title">GDPR Compliant</h3>
+                    <p class="certification-description" data-i18n="certifications.cert2.description">We adhere to the European Union's General Data Protection Regulation, ensuring your personal data is handled with care.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="certification-title" data-i18n="certifications.cert3.title">SOC 2 Compliant</h3>
+                    <p class="certification-description" data-i18n="certifications.cert3.description">Our infrastructure and services have been audited for security, availability, processing integrity, and confidentiality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="caseStudies.title">Success Stories</h2>
+                <p class="section-subtitle" data-i18n="caseStudies.subtitle">See how organizations across industries have transformed their content workflow</p>
+            </div>
+            <div class="case-studies-grid">
+                <div class="case-study-card">
+                    <div class="case-study-image">
+                        <img src="img/case-study-1.svg" alt="Marketing Agency Case Study" class="case-img" loading="lazy">
+                    </div>
+                    <div class="case-study-content">
+                        <h3 class="case-study-title" data-i18n="caseStudies.case1.title">How GrowthMarketing Increased Client Satisfaction by 85%</h3>
+                        <p class="case-study-metrics" data-i18n="caseStudies.case1.metrics"><strong>Results:</strong> 62% faster content production, 85% higher client satisfaction</p>
+                        <p class="case-study-description" data-i18n="caseStudies.case1.description">This marketing agency used our tool to streamline their content review process, reducing revisions and dramatically improving client satisfaction scores.</p>
+                        <a href="#case-study-1" class="btn btn-outline" data-i18n="caseStudies.readMore">Read Full Case Study</a>
+                    </div>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-image">
+                        <img src="img/case-study-2.svg" alt="Education Publisher Case Study" class="case-img" loading="lazy">
+                    </div>
+                    <div class="case-study-content">
+                        <h3 class="case-study-title" data-i18n="caseStudies.case2.title">How EduPublish Improved Content Quality Across 500+ Textbooks</h3>
+                        <p class="case-study-metrics" data-i18n="caseStudies.case2.metrics"><strong>Results:</strong> 40% reduction in editing time, 99.2% error-free content</p>
+                        <p class="case-study-description" data-i18n="caseStudies.case2.description">This educational publisher integrated our API into their workflow, improving content quality while significantly reducing production time and costs.</p>
+                        <a href="#case-study-2" class="btn btn-outline" data-i18n="caseStudies.readMore">Read Full Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="technology.title">Our Technology</h2>
+                <p class="section-subtitle" data-i18n="technology.subtitle">Powered by cutting-edge AI and natural language processing</p>
+            </div>
+            <div class="technology-content">
+                <div class="technology-image">
+                    <img src="img/technology-diagram.svg" alt="AI Technology Architecture Diagram" class="tech-diagram" loading="lazy">
+                </div>
+                <div class="technology-text">
+                    <div class="tech-feature">
+                        <h3 data-i18n="technology.feature1.title">Advanced Neural Networks</h3>
+                        <p data-i18n="technology.feature1.description">Our proprietary neural network architecture has been trained on billions of text samples to understand context, tone, and meaning at a human-like level.</p>
+                    </div>
+                    <div class="tech-feature">
+                        <h3 data-i18n="technology.feature2.title">Continuous Learning</h3>
+                        <p data-i18n="technology.feature2.description">Our system continuously improves through machine learning, incorporating new language patterns and user feedback to enhance accuracy over time.</p>
+                    </div>
+                    <div class="tech-feature">
+                        <h3 data-i18n="technology.feature3.title">Multi-Language Support</h3>
+                        <p data-i18n="technology.feature3.description">Built from the ground up to process multiple languages with equal proficiency, ensuring consistent results regardless of your content's language.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Image Generation Section -->
+    <section id="ai-image-generation" class="ai-image-generation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="aiImageGen.title">AI Image Generation</h2>
+                <p class="section-subtitle" data-i18n="aiImageGen.subtitle">Generate stunning images with our advanced AI technology</p>
+            </div>
+            <div class="image-gen-content">
+                <div class="image-gen-demo">
+                    <div class="image-gen-controls">
+                        <div class="input-group">
+                            <label for="image-prompt" data-i18n="aiImageGen.promptLabel">Enter your image prompt:</label>
+                            <textarea id="image-prompt" rows="3" data-i18n-placeholder="aiImageGen.promptPlaceholder"></textarea>
+                        </div>
+                        <div class="options-group">
+                            <h4 data-i18n="aiImageGen.optionsTitle">Generation Options</h4>
+                            <div class="options-grid">
+                                <div class="option">
+                                    <label for="image-style" data-i18n="aiImageGen.styleLabel">Style:</label>
+                                    <select id="image-style">
+                                        <option value="realistic" data-i18n="aiImageGen.styleRealistic">Realistic</option>
+                                        <option value="cartoon" data-i18n="aiImageGen.styleCartoon">Cartoon</option>
+                                        <option value="painting" data-i18n="aiImageGen.stylePainting">Painting</option>
+                                        <option value="3d" data-i18n="aiImageGen.style3d">3D Rendering</option>
+                                    </select>
+                                </div>
+                                <div class="option">
+                                    <label for="image-ratio" data-i18n="aiImageGen.ratioLabel">Aspect Ratio:</label>
+                                    <select id="image-ratio">
+                                        <option value="1:1" data-i18n="aiImageGen.ratioSquare">Square (1:1)</option>
+                                        <option value="16:9" data-i18n="aiImageGen.ratioWide">Widescreen (16:9)</option>
+                                        <option value="4:3" data-i18n="aiImageGen.ratioStandard">Standard (4:3)</option>
+                                        <option value="9:16" data-i18n="aiImageGen.ratioPortrait">Portrait (9:16)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <button id="generate-image-btn" class="btn btn-primary" data-i18n="aiImageGen.generateBtn">Generate Image</button>
+                            <button id="clear-image-btn" class="btn btn-secondary" data-i18n="aiImageGen.clearBtn">Clear</button>
+                        </div>
+                    </div>
+                    <div class="image-gen-result">
+                        <div class="result-header">
+                            <h4 data-i18n="aiImageGen.resultTitle">Generated Image</h4>
+                            <div class="result-actions">
+                                <button id="download-image-btn" class="btn btn-icon" title="Download image">
+                                    <i class="fas fa-download"></i>
+                                </button>
+                                <button id="share-image-btn" class="btn btn-icon" title="Share image">
+                                    <i class="fas fa-share-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div id="image-result-container" class="image-result-container">
+                            <div class="placeholder-content" data-i18n="aiImageGen.resultPlaceholder">Your generated image will appear here</div>
+                        </div>
+                        <div class="generation-stats">
+                            <div class="stat">
+                                <span class="stat-label" data-i18n="aiImageGen.timeLabel">Generation Time:</span>
+                                <span id="generation-time" class="stat-value">0.0s</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label" data-i18n="aiImageGen.resolutionLabel">Resolution:</span>
+                                <span id="image-resolution" class="stat-value">0x0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-gallery">
+                    <h3 data-i18n="aiImageGen.galleryTitle">Example Gallery</h3>
+                    <p data-i18n="aiImageGen.galleryDescription">Check out these stunning examples created with our AI image generator</p>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <div class="gallery-image example-1"></div>
+                            <p class="gallery-caption" data-i18n="aiImageGen.example1Caption">A futuristic cityscape with flying vehicles</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image example-2"></div>
+                            <p class="gallery-caption" data-i18n="aiImageGen.example2Caption">A photorealistic mountain landscape at sunset</p>
+                        </div>
+                        <div class="gallery-item">
+                            <div class="gallery-image example-3"></div>
+                            <p class="gallery-caption" data-i18n="aiImageGen.example3Caption">Abstract art with vibrant colors and patterns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Playground Section -->
+    <section id="ai-playground" class="ai-playground">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="aiPlayground.title">AI Text Analysis Playground</h2>
+                <p class="section-subtitle" data-i18n="aiPlayground.subtitle">Experience the power of our AI with this interactive demo</p>
+            </div>
+            <div class="chat-container" id="chat-container">
+                <div class="messages-list" id="messages-list">
+                    <!-- Messages will be added here -->
+                </div>
+                <div class="user-input-container">
+                    <div id="processing-indicator" class="processing-indicator">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span data-i18n="aiPlayground.processing">AI is thinking...</span>
+                    </div>
+                    <textarea id="user-input" data-i18n-placeholder="aiPlayground.inputPlaceholder"></textarea>
+                    <button id="send-button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        <span data-i18n="aiPlayground.send">Send</span>
+                    </button>
+                </div>
+            </div>
+            <div class="playground-note">
+                <p data-i18n="aiPlayground.note">Note: This demo shows how our AI can analyze and enhance your text. For full capabilities, sign up for a free trial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+                <p class="section-subtitle" data-i18n="faq.subtitle">Find answers to common questions about our tool</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q1">How does the free trial work?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a1">Our free trial gives you full access to all features of your selected plan for 14 days. No credit card is required to start. At the end of the trial, you can choose to upgrade to a paid plan or your account will automatically switch to our limited free version.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q2">Can I change plans later?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a2">Yes, you can upgrade, downgrade, or cancel your plan at any time. If you upgrade, the changes take effect immediately. If you downgrade, the changes will apply at the start of your next billing cycle.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q3">Is my data secure?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a3">Absolutely. We use enterprise-grade encryption to protect your data both in transit and at rest. We are compliant with GDPR, CCPA, and other relevant privacy regulations. We never sell or share your data with third parties.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q4">Do you offer discounts for non-profits or educational institutions?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a4">Yes, we offer special pricing for non-profit organizations, educational institutions, and students. Please contact our sales team with relevant documentation to learn more about our discount programs.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q5">What kind of support do you offer?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a5">We offer different levels of support based on your plan. Basic users receive email support with a 48-hour response time. Professional users get priority email support with a 24-hour response time. Enterprise users receive 24/7 dedicated support via email, phone, and live chat.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3 data-i18n="faq.q6">Can I integrate your tool with other software?</h3>
+                        <button class="toggle-btn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-i18n="faq.a6">Yes, we offer robust API access and built-in integrations with popular software like Google Workspace, Microsoft Office, Slack, and many more. Professional and Enterprise plans include full API access, while Basic plans have limited API capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-i18n="cta.title">Ready to Transform Your Workflow?</h2>
+                <p class="cta-subtitle" data-i18n="cta.subtitle">Join thousands of professionals who are saving time and improving results with our tool</p>
+                <div class="cta-buttons">
+                    <a href="#signup" class="btn btn-primary btn-large" data-i18n="cta.primary">Start Your Free Trial</a>
+                    <a href="#demo" class="btn btn-outline btn-large" data-i18n="cta.secondary">Schedule a Demo</a>
+                </div>
+                <div class="cta-guarantee">
+                    <i class="fas fa-shield-alt"></i>
+                    <p data-i18n="cta.guarantee">14-day money-back guarantee. No credit card required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="img/logo.svg" alt="Tool Logo" class="logo-img">
+                        <h2 class="logo-text" data-i18n="footer.title">Tool Name</h2>
+                    </div>
+                    <p class="footer-description" data-i18n="footer.description">Powerful online tool to transform your workflow and boost productivity</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-group">
+                        <h3 class="footer-heading" data-i18n="footer.product">Product</h3>
+                        <ul class="footer-list">
+                            <li><a href="#features" data-i18n="footer.features">Features</a></li>
+                            <li><a href="#pricing" data-i18n="footer.pricing">Pricing</a></li>
+                            <li><a href="#" data-i18n="footer.tutorials">Tutorials</a></li>
+                            <li><a href="#" data-i18n="footer.updates">Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <h3 class="footer-heading" data-i18n="footer.company">Company</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" data-i18n="footer.about">About Us</a></li>
+                            <li><a href="#" data-i18n="footer.careers">Careers</a></li>
+                            <li><a href="#" data-i18n="footer.contact">Contact Us</a></li>
+                            <li><a href="#" data-i18n="footer.blog">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <h3 class="footer-heading" data-i18n="footer.resources">Resources</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" data-i18n="footer.documentation">Documentation</a></li>
+                            <li><a href="#" data-i18n="footer.help">Help Center</a></li>
+                            <li><a href="#" data-i18n="footer.api">API Reference</a></li>
+                            <li><a href="#" data-i18n="footer.community">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-group">
+                        <h3 class="footer-heading" data-i18n="footer.legal">Legal</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" data-i18n="footer.privacy">Privacy Policy</a></li>
+                            <li><a href="#" data-i18n="footer.terms">Terms of Service</a></li>
+                            <li><a href="#" data-i18n="footer.security">Security</a></li>
+                            <li><a href="#" data-i18n="footer.compliance">Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p data-i18n="footer.copyright"> 2023 Tool Name. All rights reserved.</p>
+                </div>
+                <div class="language-selector">
+                    <label for="footer-language-select" data-i18n="footer.language">Language:</label>
+                    <select id="footer-language-select">
+                        <option value="en" data-i18n="footer.english">English</option>
+                        <option value="es" data-i18n="footer.spanish">Spanish</option>
+                        <option value="fr" data-i18n="footer.french">French</option>
+                        <option value="de" data-i18n="footer.german">German</option>
+                        <option value="zh" data-i18n="footer.chinese">Chinese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/config.js"></script>
+    <script type="module" src="js/i18n.js"></script>
+    <script type="module" src="js/playground.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/ai-playground.js"></script>
+</body>
 </html>

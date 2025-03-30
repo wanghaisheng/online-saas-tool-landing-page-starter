@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "Herramienta Profesional en Línea - Ahorre Tiempo y Aumente la Productividad",
+    "description": "Nuestra potente herramienta en línea ayuda a profesionales como usted a ahorrar tiempo, automatizar tareas y lograr mejores resultados. Pruébala gratis hoy."
+  },
+  "header": {
+    "title": "Nombre de la Herramienta",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse Gratis"
+  },
+  "nav": {
+    "features": "Características",
+    "playground": "Prueba",
+    "comparison": "Comparación",
+    "solutions": "Soluciones",
+    "pricing": "Precios"
+  },
+  "hero": {
+    "title": "Transforme su Flujo de Trabajo con Nuestra Potente Herramienta en Línea",
+    "subtitle": "Ahorre tiempo, aumente la productividad y logre mejores resultados con nuestra solución intuitiva diseñada para profesionales como usted.",
+    "cta": "Iniciar Prueba Gratuita",
+    "demo": "Ver Demostración",
+    "rating": "4.9/5 de más de 2,000 reseñas",
+    "customers": "Confiado por más de 10,000 profesionales",
+    "badge1": "10 veces más rápido",
+    "badge2": "99.9% de precisión",
+    "badge3": "Seguro y privado"
+  },
+  "features": {
+    "title": "Potentes Características que Marcan la Diferencia",
+    "subtitle": "Descubra cómo nuestra herramienta puede transformar su flujo de trabajo con estas capacidades líderes en la industria",
+    "feature1": {
+      "title": "Procesamiento Ultra Rápido",
+      "description": "Procese grandes cantidades de datos en segundos, no en horas. Nuestros algoritmos optimizados garantizan la máxima eficiencia."
+    },
+    "feature2": {
+      "title": "Análisis Impulsado por IA",
+      "description": "Aproveche la IA de vanguardia para obtener información y automatizar tareas complejas con una precisión sin precedentes."
+    },
+    "feature3": {
+      "title": "Sincronización en la Nube",
+      "description": "Acceda a su trabajo desde cualquier lugar con integración perfecta en la nube y actualizaciones en tiempo real en todos los dispositivos."
+    },
+    "feature4": {
+      "title": "Seguridad de Nivel Empresarial",
+      "description": "Descanse tranquilo sabiendo que sus datos están protegidos con cifrado de extremo a extremo y protocolos de seguridad integrales."
+    },
+    "feature5": {
+      "title": "Analítica Avanzada",
+      "description": "Realice un seguimiento del rendimiento e identifique tendencias con paneles personalizables e informes detallados."
+    },
+    "feature6": {
+      "title": "Integración API",
+      "description": "Conéctese perfectamente con sus herramientas existentes a través de nuestra robusta API y amplias opciones de integración."
+    }
+  },
+  "playground": {
+    "title": "Pruébelo Usted Mismo",
+    "subtitle": "Experimente el poder de nuestra herramienta con esta demostración interactiva",
+    "inputLabel": "Introduzca su texto:",
+    "inputPlaceholder": "Escriba o pegue su contenido aquí...",
+    "optionsTitle": "Opciones de Procesamiento",
+    "option1": "Análisis Avanzado",
+    "option2": "Informe Detallado",
+    "option3": "Mejora con IA",
+    "langOption1": "Inglés",
+    "langOption2": "Español",
+    "langOption3": "Francés",
+    "langOption4": "Alemán",
+    "langOption5": "Chino",
+    "processBtn": "Procesar Ahora",
+    "clearBtn": "Limpiar",
+    "resultTitle": "Resultados",
+    "resultPlaceholder": "Sus resultados aparecerán aquí después del procesamiento",
+    "processingTime": "Tiempo de Procesamiento:",
+    "wordCount": "Recuento de Palabras:",
+    "accuracy": "Precisión:",
+    "note": "Nota: Esta demostración tiene funcionalidad limitada. Regístrese gratis para acceder a todas las capacidades.",
+    "noteLink": "Registrarse gratis",
+    "processing": "Procesando...",
+    "errorEmptyInput": "Por favor, introduzca algún texto para procesar",
+    "analysis": {
+      "title": "Análisis Avanzado",
+      "content": "Nuestro análisis avanzado ha identificado los siguientes patrones e insights de su contenido:",
+      "sentiment": "Sentimiento Positivo"
+    },
+    "report": {
+      "title": "Informe Detallado",
+      "item1": "La estructura del contenido está bien organizada con secciones claras",
+      "item2": "Temas clave identificados: productividad, eficiencia, automatización",
+      "item3": "Mejoras recomendadas: Añadir más ejemplos específicos y puntos de datos"
+    },
+    "ai": {
+      "title": "Sugerencias de Mejora con IA",
+      "content": "Nuestra IA ha analizado su contenido y ha identificado oportunidades de mejora:",
+      "suggestion": "Considere reestructurar el párrafo 2 para mejorar el flujo y la claridad"
+    }
+  },
+  "comparison": {
+    "title": "Cómo Nos Comparamos",
+    "subtitle": "Vea por qué los profesionales nos eligen frente a las alternativas",
+    "featureColumn": "Característica",
+    "ourProduct": "Nuestra Herramienta",
+    "recommended": "Recomendado",
+    "competitor1": "Competidor A",
+    "competitor2": "Competidor B",
+    "feature1": "Velocidad de Procesamiento",
+    "feature2": "Análisis Impulsado por IA",
+    "feature3": "Integración en la Nube",
+    "feature4": "Nivel de Seguridad",
+    "feature5": "Acceso API",
+    "feature6": "Atención al Cliente",
+    "pricing": "Precio Inicial",
+    "fastest": "Más Rápido",
+    "advanced": "Avanzado",
+    "unlimited": "Ilimitado",
+    "enterprise": "Empresarial",
+    "included": "Incluido",
+    "247": "24/7 en Vivo",
+    "average": "Promedio",
+    "basic": "Básico",
+    "limited": "Limitado",
+    "standard": "Estándar",
+    "premium": "Solo premium",
+    "email": "Solo correo",
+    "none": "Ninguno",
+    "month": "/mes",
+    "trialBtn": "Iniciar Prueba Gratuita"
+  },
+  "solutions": {
+    "title": "Desafíos Comunes Resueltos",
+    "subtitle": "Hemos escuchado las frustraciones de los usuarios y creado soluciones que abordan problemas del mundo real",
+    "pain1": {
+      "title": "Procesamiento Manual que Consume Tiempo",
+      "description": "\"Desperdicio horas en tareas que deberían llevar minutos. El procesamiento manual está matando mi productividad.\""
+    },
+    "solution1": {
+      "title": "Motor de Procesamiento Automatizado",
+      "description": "Nuestra herramienta automatiza tareas repetitivas, reduciendo el tiempo de procesamiento hasta en un 90%. Lo que solía llevar horas ahora lleva minutos."
+    },
+    "pain2": {
+      "title": "Resultados Inconsistentes y Errores",
+      "description": "\"No puedo confiar en la calidad de salida. Demasiados errores significan que tengo que volver a verificar todo de todos modos.\""
+    },
+    "solution2": {
+      "title": "Precisión Impulsada por IA",
+      "description": "Nuestros avanzados algoritmos de IA garantizan una precisión del 99.9% en los resultados, eliminando la necesidad de verificación manual y proporcionando una calidad consistente."
+    },
+    "pain3": {
+      "title": "Curva de Aprendizaje Compleja",
+      "description": "\"La mayoría de las herramientas requieren semanas de capacitación antes de poder usarlas de manera efectiva. No tengo tiempo para eso.\""
+    },
+    "solution3": {
+      "title": "Interfaz de Usuario Intuitiva",
+      "description": "Nuestra interfaz fácil de usar está diseñada para una productividad inmediata. La mayoría de los usuarios dominan los conceptos básicos en menos de 30 minutos con nuestra incorporación guiada."
+    },
+    "pain4": {
+      "title": "Opciones de Colaboración Limitadas",
+      "description": "\"Compartir trabajo y colaborar con mi equipo es una pesadilla con las herramientas actuales. Perdemos tiempo en soluciones alternativas.\""
+    },
+    "solution4": {
+      "title": "Colaboración en Equipo sin Problemas",
+      "description": "Nuestras funciones de colaboración integradas permiten compartir, comentar y editar en tiempo real con permisos basados en roles para un trabajo en equipo eficiente."
+    }
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Usuarios",
+    "subtitle": "No solo tome nuestra palabra - escuche a los profesionales que usan nuestra herramienta todos los días",
+    "testimonial1": {
+      "quote": "Esta herramienta ha transformado completamente la forma en que trabaja nuestro equipo. Hemos reducido el tiempo de procesamiento en un 85% y mejorado significativamente la calidad de nuestra producción. Ha sido un cambio de juego para nuestro negocio.",
+      "name": "Sarah Johnson",
+      "position": "Directora de Marketing, TechCorp"
+    },
+    "testimonial2": {
+      "quote": "Después de probar varios competidores, encontramos que esta solución es muy superior en términos de velocidad y precisión. La interfaz intuitiva hizo que la adopción en todo nuestro equipo fuera increíblemente fluida.",
+      "name": "Michael Chen",
+      "position": "Analista de Datos, FinancePro"
+    },
+    "testimonial3": {
+      "quote": "El ROI de esta herramienta fue evidente dentro del primer mes. Hemos podido escalar nuestras operaciones sin agregar personal, y la calidad de nuestra producción nunca ha sido mejor.",
+      "name": "Jennifer Lopez",
+      "position": "Gerente de Operaciones, GrowthCo"
+    }
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Elija el plan que se adapte a sus necesidades, sin tarifas ocultas ni compromisos a largo plazo",
+    "monthly": "Mensual",
+    "annually": "Anual",
+    "save": "Ahorre 20%",
+    "popular": "Más Popular",
+    "basic": {
+      "name": "Básico",
+      "period": "/mes",
+      "description": "Perfecto para individuos y proyectos pequeños",
+      "feature1": "Procese hasta 100 elementos por día",
+      "feature2": "Herramientas de análisis estándar",
+      "feature3": "5GB de almacenamiento en la nube",
+      "feature4": "Soporte por correo electrónico",
+      "cta": "Iniciar Prueba Gratuita"
+    },
+    "pro": {
+      "name": "Profesional",
+      "period": "/mes",
+      "description": "Ideal para profesionales y equipos en crecimiento",
+      "feature1": "Procesamiento ilimitado",
+      "feature2": "Análisis avanzado de IA",
+      "feature3": "50GB de almacenamiento en la nube",
+      "feature4": "Soporte prioritario",
+      "feature5": "Herramientas de colaboración en equipo",
+      "cta": "Iniciar Prueba Gratuita"
+    },
+    "enterprise": {
+      "name": "Empresa",
+      "period": "/mes",
+      "description": "Para grandes organizaciones con necesidades avanzadas",
+      "feature1": "Todo ilimitado",
+      "feature2": "Modelos de IA personalizados",
+      "feature3": "500GB de almacenamiento en la nube",
+      "feature4": "Soporte dedicado 24/7",
+      "feature5": "Características de seguridad avanzadas",
+      "feature6": "Integraciones personalizadas",
+      "cta": "Contactar con Ventas"
+    },
+    "guarantee": "Todos los planes vienen con una garantía de devolución de dinero de 14 días. Sin preguntas."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentre respuestas a preguntas comunes sobre nuestra herramienta",
+    "q1": "¿Cómo funciona la prueba gratuita?",
+    "a1": "Nuestra prueba gratuita le da acceso completo a todas las funciones de su plan seleccionado durante 14 días. No se requiere tarjeta de crédito para comenzar. Al final de la prueba, puede elegir actualizar a un plan pago o su cuenta cambiará automáticamente a nuestra versión gratuita limitada.",
+    "q2": "¿Puedo cambiar de plan más tarde?",
+    "a2": "Sí, puede actualizar, degradar o cancelar su plan en cualquier momento. Si actualiza, los cambios surten efecto inmediatamente. Si degrada, los cambios se aplicarán al comienzo de su próximo ciclo de facturación.",
+    "q3": "¿Mis datos están seguros?",
+    "a3": "Absolutamente. Utilizamos cifrado de nivel empresarial para proteger sus datos tanto en tránsito como en reposo. Cumplimos con GDPR, CCPA y otras regulaciones de privacidad relevantes. Nunca vendemos ni compartimos sus datos con terceros.",
+    "q4": "¿Ofrecen descuentos para organizaciones sin fines de lucro o instituciones educativas?",
+    "a4": "Sí, ofrecemos precios especiales para organizaciones sin fines de lucro, instituciones educativas y estudiantes. Póngase en contacto con nuestro equipo de ventas con la documentación relevante para obtener más información sobre nuestros programas de descuento.",
+    "q5": "¿Qué tipo de soporte ofrecen?",
+    "a5": "Ofrecemos diferentes niveles de soporte según su plan. Los usuarios básicos reciben soporte por correo electrónico con un tiempo de respuesta de 48 horas. Los usuarios profesionales obtienen soporte prioritario por correo electrónico con un tiempo de respuesta de 24 horas. Los usuarios empresariales reciben soporte dedicado 24/7 a través de correo electrónico, teléfono y chat en vivo.",
+    "q6": "¿Puedo integrar su herramienta con otro software?",
+    "a6": "Sí, ofrecemos acceso API robusto e integraciones integradas con software popular como Google Workspace, Microsoft Office, Slack y muchos más. Los planes Profesional y Empresa incluyen acceso API completo, mientras que los planes Básicos tienen capacidades API limitadas."
+  },
+  "cta": {
+    "title": "¿Listo para Transformar su Flujo de Trabajo?",
+    "subtitle": "Únase a miles de profesionales que están ahorrando tiempo y mejorando resultados con nuestra herramienta",
+    "primary": "Iniciar Prueba Gratuita",
+    "secondary": "Programar una Demostración",
+    "guarantee": "Garantía de devolución de dinero de 14 días. No se requiere tarjeta de crédito."
+  },
+  "footer": {
+    "title": "Nombre de la Herramienta",
+    "description": "Potente herramienta en línea para transformar su flujo de trabajo y aumentar la productividad",
+    "product": "Producto",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "features": "Características",
+    "pricing": "Precios",
+    "tutorials": "Tutoriales",
+    "updates": "Actualizaciones",
+    "about": "Acerca de Nosotros",
+    "careers": "Carreras",
+    "contact": "Contáctenos",
+    "blog": "Blog",
+    "documentation": "Documentación",
+    "help": "Centro de Ayuda",
+    "api": "Referencia API",
+    "community": "Comunidad",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "security": "Seguridad",
+    "compliance": "Cumplimiento",
+    "copyright": "© 2023 Nombre de la Herramienta. Todos los derechos reservados.",
+    "language": "Idioma:",
+    "english": "Inglés",
+    "spanish": "Español",
+    "french": "Francés",
+    "german": "Alemán",
+    "chinese": "Chino"
+  }
+}
+

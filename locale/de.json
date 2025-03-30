@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "Professionelles Online-Tool - Sparen Sie Zeit und steigern Sie die Produktivität",
+    "description": "Unser leistungsstarkes Online-Tool hilft Fachleuten wie Ihnen, Zeit zu sparen, Aufgaben zu automatisieren und bessere Ergebnisse zu erzielen. Probieren Sie es noch heute kostenlos aus."
+  },
+  "header": {
+    "title": "Tool-Name",
+    "login": "Anmelden",
+    "signup": "Kostenlos Registrieren"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "playground": "Testbereich",
+    "comparison": "Vergleich",
+    "solutions": "Lösungen",
+    "pricing": "Preise"
+  },
+  "hero": {
+    "title": "Transformieren Sie Ihren Arbeitsablauf mit unserem leistungsstarken Online-Tool",
+    "subtitle": "Sparen Sie Zeit, steigern Sie die Produktivität und erzielen Sie bessere Ergebnisse mit unserer intuitiven Lösung, die für Fachleute wie Sie entwickelt wurde.",
+    "cta": "Kostenlose Testversion starten",
+    "demo": "Demo ansehen",
+    "rating": "4,9/5 aus über 2.000 Bewertungen",
+    "customers": "Vertraut von über 10.000 Fachleuten",
+    "badge1": "10x Schneller",
+    "badge2": "99,9% Genauigkeit",
+    "badge3": "Sicher & Privat"
+  },
+  "features": {
+    "title": "Leistungsstarke Funktionen, die einen Unterschied machen",
+    "subtitle": "Entdecken Sie, wie unser Tool Ihren Arbeitsablauf mit diesen branchenführenden Funktionen transformieren kann",
+    "feature1": {
+      "title": "Blitzschnelle Verarbeitung",
+      "description": "Verarbeiten Sie große Datenmengen in Sekunden, nicht in Stunden. Unsere optimierten Algorithmen gewährleisten maximale Effizienz."
+    },
+    "feature2": {
+      "title": "KI-gestützte Analyse",
+      "description": "Nutzen Sie modernste KI, um Einblicke zu gewinnen und komplexe Aufgaben mit beispielloser Genauigkeit zu automatisieren."
+    },
+    "feature3": {
+      "title": "Cloud-Synchronisation",
+      "description": "Greifen Sie von überall auf Ihre Arbeit zu, mit nahtloser Cloud-Integration und Echtzeit-Updates über alle Geräte hinweg."
+    },
+    "feature4": {
+      "title": "Sicherheit auf Unternehmensebene",
+      "description": "Seien Sie beruhigt, da Ihre Daten mit End-to-End-Verschlüsselung und umfassenden Sicherheitsprotokollen geschützt sind."
+    },
+    "feature5": {
+      "title": "Erweiterte Analysen",
+      "description": "Verfolgen Sie die Leistung und identifizieren Sie Trends mit anpassbaren Dashboards und detaillierten Berichten."
+    },
+    "feature6": {
+      "title": "API-Integration",
+      "description": "Verbinden Sie sich nahtlos mit Ihren bestehenden Tools über unsere robuste API und umfangreiche Integrationsoptionen."
+    }
+  },
+  "playground": {
+    "title": "Probieren Sie es selbst aus",
+    "subtitle": "Erleben Sie die Leistungsfähigkeit unseres Tools mit dieser interaktiven Demo",
+    "inputLabel": "Geben Sie Ihren Text ein:",
+    "inputPlaceholder": "Tippen oder fügen Sie Ihren Inhalt hier ein...",
+    "optionsTitle": "Verarbeitungsoptionen",
+    "option1": "Erweiterte Analyse",
+    "option2": "Detaillierter Bericht",
+    "option3": "KI-Verbesserung",
+    "langOption1": "Englisch",
+    "langOption2": "Spanisch",
+    "langOption3": "Französisch",
+    "langOption4": "Deutsch",
+    "langOption5": "Chinesisch",
+    "processBtn": "Jetzt verarbeiten",
+    "clearBtn": "Löschen",
+    "resultTitle": "Ergebnisse",
+    "resultPlaceholder": "Ihre Ergebnisse erscheinen hier nach der Verarbeitung",
+    "processingTime": "Verarbeitungszeit:",
+    "wordCount": "Wortanzahl:",
+    "accuracy": "Genauigkeit:",
+    "note": "Hinweis: Diese Demo hat begrenzte Funktionalität. Registrieren Sie sich kostenlos, um auf alle Funktionen zuzugreifen.",
+    "noteLink": "Kostenlos registrieren",
+    "processing": "Verarbeitung...",
+    "errorEmptyInput": "Bitte geben Sie Text zum Verarbeiten ein",
+    "analysis": {
+      "title": "Erweiterte Analyse",
+      "content": "Unsere erweiterte Analyse hat die folgenden Muster und Erkenntnisse aus Ihrem Inhalt identifiziert:",
+      "sentiment": "Positive Stimmung"
+    },
+    "report": {
+      "title": "Detaillierter Bericht",
+      "item1": "Die Inhaltsstruktur ist mit klaren Abschnitten gut organisiert",
+      "item2": "Identifizierte Schlüsselthemen: Produktivität, Effizienz, Automatisierung",
+      "item3": "Empfohlene Verbesserungen: Fügen Sie mehr spezifische Beispiele und Datenpunkte hinzu"
+    },
+    "ai": {
+      "title": "KI-Verbesserungsvorschläge",
+      "content": "Unsere KI hat Ihren Inhalt analysiert und Verbesserungsmöglichkeiten identifiziert:",
+      "suggestion": "Erwägen Sie, Absatz 2 umzustrukturieren, um den Fluss und die Klarheit zu verbessern"
+    }
+  },
+  "comparison": {
+    "title": "Wie wir uns vergleichen",
+    "subtitle": "Sehen Sie, warum Fachleute uns gegenüber Alternativen bevorzugen",
+    "featureColumn": "Funktion",
+    "ourProduct": "Unser Tool",
+    "recommended": "Empfohlen",
+    "competitor1": "Konkurrent A",
+    "competitor2": "Konkurrent B",
+    "feature1": "Verarbeitungsgeschwindigkeit",
+    "feature2": "KI-gestützte Analyse",
+    "feature3": "Cloud-Integration",
+    "feature4": "Sicherheitsstufe",
+    "feature5": "API-Zugriff",
+    "feature6": "Kundensupport",
+    "pricing": "Startpreis",
+    "fastest": "Am schnellsten",
+    "advanced": "Fortgeschritten",
+    "unlimited": "Unbegrenzt",
+    "enterprise": "Unternehmen",
+    "included": "Inbegriffen",
+    "247": "24/7 Live",
+    "average": "Durchschnittlich",
+    "basic": "Grundlegend",
+    "limited": "Begrenzt",
+    "standard": "Standard",
+    "premium": "Nur Premium",
+    "email": "Nur E-Mail",
+    "none": "Keiner",
+    "month": "/Monat",
+    "trialBtn": "Kostenlose Testversion starten"
+  },
+  "solutions": {
+    "title": "Gelöste häufige Herausforderungen",
+    "subtitle": "Wir haben auf die Frustration der Benutzer gehört und Lösungen entwickelt, die reale Probleme lösen",
+    "pain1": {
+      "title": "Zeitaufwendige manuelle Verarbeitung",
+      "description": "\"Ich verschwende Stunden für Aufgaben, die Minuten dauern sollten. Manuelle Verarbeitung tötet meine Produktivität.\""
+    },
+    "solution1": {
+      "title": "Automatisierte Verarbeitungs-Engine",
+      "description": "Unser Tool automatisiert repetitive Aufgaben und reduziert die Verarbeitungszeit um bis zu 90%. Was früher Stunden dauerte, dauert jetzt Minuten."
+    },
+    "pain2": {
+      "title": "Inkonsistente Ergebnisse & Fehler",
+      "description": "\"Ich kann der Ausgabequalität nicht vertrauen. Zu viele Fehler bedeuten, dass ich sowieso alles doppelt prüfen muss.\""
+    },
+    "solution2": {
+      "title": "KI-gestützte Genauigkeit",
+      "description": "Unsere fortschrittlichen KI-Algorithmen garantieren eine 99,9%ige Genauigkeit bei den Ergebnissen, eliminieren die Notwendigkeit einer manuellen Überprüfung und liefern konsistente Qualität."
+    },
+    "pain3": {
+      "title": "Komplexe Lernkurve",
+      "description": "\"Die meisten Tools erfordern Wochen der Einarbeitung, bevor ich sie effektiv nutzen kann. Dafür habe ich keine Zeit.\""
+    },
+    "solution3": {
+      "title": "Intuitive Benutzeroberfläche",
+      "description": "Unsere benutzerfreundliche Oberfläche ist für sofortige Produktivität konzipiert. Die meisten Benutzer beherrschen die Grundlagen in weniger als 30 Minuten mit unserem geführten Onboarding."
+    },
+    "pain4": {
+      "title": "Begrenzte Zusammenarbeitsmöglichkeiten",
+      "description": "\"Die Arbeit zu teilen und mit meinem Team zusammenzuarbeiten ist mit aktuellen Tools ein Albtraum. Wir verschwenden Zeit mit Behelfslösungen.\""
+    },
+    "solution4": {
+      "title": "Nahtlose Teamzusammenarbeit",
+      "description": "Unsere integrierten Kollaborationsfunktionen ermöglichen Echtzeit-Sharing, Kommentieren und Bearbeiten mit rollenbasierten Berechtigungen für effiziente Teamarbeit."
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Benutzer sagen",
+    "subtitle": "Nehmen Sie nicht nur unser Wort dafür - hören Sie von Fachleuten, die unser Tool täglich nutzen",
+    "testimonial1": {
+      "quote": "Dieses Tool hat die Arbeitsweise unseres Teams komplett verändert. Wir haben die Verarbeitungszeit um 85% reduziert und unsere Ausgabequalität erheblich verbessert. Es war ein Wendepunkt für unser Unternehmen.",
+      "name": "Sarah Johnson",
+      "position": "Marketing Direktorin, TechCorp"
+    },
+    "testimonial2": {
+      "quote": "Nach dem Ausprobieren mehrerer Konkurrenten fanden wir diese Lösung in Bezug auf Geschwindigkeit und Genauigkeit deutlich überlegen. Die intuitive Oberfläche machte die Einführung in unserem Team unglaublich reibungslos.",
+      "name": "Michael Chen",
+      "position": "Datenanalyst, FinancePro"
+    },
+    "testimonial3": {
+      "quote": "Der ROI dieses Tools war innerhalb des ersten Monats erkennbar. Wir konnten unsere Operationen skalieren, ohne zusätzliches Personal einzustellen, und die Qualität unserer Ausgabe war noch nie besser.",
+      "name": "Jennifer Lopez",
+      "position": "Betriebsleiterin, GrowthCo"
+    }
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preisgestaltung",
+    "subtitle": "Wählen Sie den Plan, der zu Ihren Bedürfnissen passt, ohne versteckte Gebühren oder langfristige Verpflichtungen",
+    "monthly": "Monatlich",
+    "annually": "Jährlich",
+    "save": "Sparen Sie 20%",
+    "popular": "Am beliebtesten",
+    "basic": {
+      "name": "Basic",
+      "period": "/Monat",
+      "description": "Perfekt für Einzelpersonen und kleine Projekte",
+      "feature1": "Verarbeiten Sie bis zu 100 Elemente pro Tag",
+      "feature2": "Standard-Analysewerkzeuge",
+      "feature3": "5GB Cloud-Speicher",
+      "feature4": "E-Mail-Support",
+      "cta": "Kostenlose Testversion starten"
+    },
+    "pro": {
+      "name": "Professional",
+      "period": "/Monat",
+      "description": "Ideal für Fachleute und wachsende Teams",
+      "feature1": "Unbegrenzte Verarbeitung",
+      "feature2": "Erweiterte KI-Analyse",
+      "feature3": "50GB Cloud-Speicher",
+      "feature4": "Prioritäts-Support",
+      "feature5": "Team-Kollaborationstools",
+      "cta": "Kostenlose Testversion starten"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "period": "/Monat",
+      "description": "Für große Organisationen mit fortgeschrittenen Bedürfnissen",
+      "feature1": "Alles unbegrenzt",
+      "feature2": "Benutzerdefinierte KI-Modelle",
+      "feature3": "500GB Cloud-Speicher",
+      "feature4": "24/7 dedizierter Support",
+      "feature5": "Erweiterte Sicherheitsfunktionen",
+      "feature6": "Benutzerdefinierte Integrationen",
+      "cta": "Vertrieb kontaktieren"
+    },
+    "guarantee": "Alle Pläne kommen mit einer 14-tägigen Geld-zurück-Garantie. Keine Fragen gestellt."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufige Fragen zu unserem Tool",
+    "q1": "Wie funktioniert die kostenlose Testversion?",
+    "a1": "Unsere kostenlose Testversion gibt Ihnen vollen Zugriff auf alle Funktionen Ihres ausgewählten Plans für 14 Tage. Keine Kreditkarte erforderlich, um zu beginnen. Am Ende der Testphase können Sie auf einen kostenpflichtigen Plan upgraden oder Ihr Konto wird automatisch auf unsere begrenzte kostenlose Version umgestellt.",
+    "q2": "Kann ich später den Plan wechseln?",
+    "a2": "Ja, Sie können Ihren Plan jederzeit upgraden, downgraden oder kündigen. Bei einem Upgrade treten die Änderungen sofort in Kraft. Bei einem Downgrade werden die Änderungen zu Beginn Ihres nächsten Abrechnungszyklus wirksam.",
+    "q3": "Sind meine Daten sicher?",
+    "a3": "Absolut. Wir verwenden Unternehmensklasse-Verschlüsselung, um Ihre Daten sowohl während der Übertragung als auch im Ruhezustand zu schützen. Wir entsprechen DSGVO, CCPA und anderen relevanten Datenschutzbestimmungen. Wir verkaufen oder teilen Ihre Daten niemals mit Dritten.",
+    "q4": "Bieten Sie Rabatte für gemeinnützige Organisationen oder Bildungseinrichtungen an?",
+    "a4": "Ja, wir bieten Sonderpreise für gemeinnützige Organisationen, Bildungseinrichtungen und Studenten an. Bitte kontaktieren Sie unser Vertriebsteam mit relevanten Unterlagen, um mehr über unsere Rabattrogramme zu erfahren.",
+    "q5": "Welche Art von Support bieten Sie an?",
+    "a5": "Wir bieten verschiedene Support-Level basierend auf Ihrem Plan an. Basic-Benutzer erhalten E-Mail-Support mit einer Antwortzeit von 48 Stunden. Professional-Benutzer erhalten prioritären E-Mail-Support mit einer Antwortzeit von 24 Stunden. Enterprise-Benutzer erhalten 24/7 dedizierten Support per E-Mail, Telefon und Live-Chat.",
+    "q6": "Kann ich Ihr Tool mit anderer Software integrieren?",
+    "a6": "Ja, wir bieten robusten API-Zugriff und integrierte Integrationen mit beliebter Software wie Google Workspace, Microsoft Office, Slack und vielen mehr. Professional- und Enterprise-Pläne beinhalten vollen API-Zugriff, während Basic-Pläne begrenzte API-Fähigkeiten haben."
+  },
+  "cta": {
+    "title": "Bereit, Ihren Arbeitsablauf zu transformieren?",
+    "subtitle": "Schließen Sie sich Tausenden von Fachleuten an, die mit unserem Tool Zeit sparen und Ergebnisse verbessern",
+    "primary": "Starten Sie Ihre kostenlose Testversion",
+    "secondary": "Demo vereinbaren",
+    "guarantee": "14-tägige Geld-zurück-Garantie. Keine Kreditkarte erforderlich."
+  },
+  "footer": {
+    "title": "Tool-Name",
+    "description": "Leistungsstarkes Online-Tool zur Transformation Ihres Arbeitsablaufs und Steigerung der Produktivität",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "tutorials": "Tutorials",
+    "updates": "Updates",
+    "about": "Über uns",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "documentation": "Dokumentation",
+    "help": "Hilfe-Center",
+    "api": "API-Referenz",
+    "community": "Community",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "security": "Sicherheit",
+    "compliance": "Compliance",
+    "copyright": "© 2023 Tool-Name. Alle Rechte vorbehalten.",
+    "language": "Sprache:",
+    "english": "Englisch",
+    "spanish": "Spanisch",
+    "french": "Französisch",
+    "german": "Deutsch",
+    "chinese": "Chinesisch"
+  }
+}
+
